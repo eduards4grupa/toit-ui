@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <link rel="stylesheet" href="styleCart.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToiT</title>  
+  <style type="text/css"> 
+   /* General body styling */
+   
+  </style> 
+</head> 
+<body> 
+<!-- Header with logo, navigation, and cart icon -->
+<div id="header">
+  <img src="logoo.png" alt="logoo" width="72" height="81" class="moved-image">
+  <div class="nav-links">
+    <p onclick="window.location.href='home.html';">Home</p>
+    <p onclick="window.location.href='MenuGen.html';">Menu Generator</p>
+    <p onclick="window.location.href='doc.html';">Documentation</p>
+    <p onclick="window.location.href='https://github.com/dainisws/Proj_Lab';">Repository</p>
+    <p onclick="window.location.href='legal.html';">Legal</p>
+  </div>
+  <img src="Icon.png" alt="cart" width="32" height="32" class="moved-image-cart" onclick="window.location.href='cart.html';">
+</div> 
+
+<!-- Main content area with logo and descriptions -->
+<div id="main"> 
+  <!-- Content Boxes -->
+  <div class="content-boxes">
+    <!-- Box 1 -->
+    <div class="box">
+      
+      <div class="small-box">
+        <img src="breakfast.jpeg" alt="Sweet breakfast curd with jam and berries" class="food-image">
+        <div class="food-details">
+          <h2 class="centered-text"><b>Sweet breakfast curd with jam and berries</b></h2>
+          <p>Amount: 200g</p>
+          <p>Calories: 220</p>
+          <p>Fat: 1g</p>
+          <p>Carbohydrates: 20g</p>
+          <p>Protein: 30g</p>
+          <p>Cooking time: 20 minutes</p>
+          <button class="delete-button">Delete</button>
+          <button class="buy-button">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- Footer with copyright info -->
+<div class="footer">&copy; 2024 MenuGen<br>Version: 1.0</div>
+</body> 
+</html>

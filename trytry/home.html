@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToiT</title> 
+  <style type="text/css"> 
+   /* General body styling */
+   
+  </style> 
+  <link rel="stylesheet" href="styleHome.css">
+
+</head> 
+
+<body> 
+  <!-- Header with logo, navigation, and cart icon -->
+  <div id="header">
+    <img src="logoo.png" alt="logoo" width="72" height="81" class="moved-image">
+    <div class="nav-links">
+      <p onclick="window.location.href='Home.html';">Home</p>
+      <p onclick="window.location.href='MenuGen.html';">Menu Generator</p>
+      <p onclick="window.location.href='doc.html';">Documentation</p>
+      <p onclick="window.location.href='https://github.com/dainisws/Proj_Lab';">Repository</p>
+      <p onclick="window.location.href='legal.html';">Legal</p>
+    </div>
+    <img src="Icon.png" alt="cart" width="32" height="32" class="moved-image-cart" onclick="window.location.href='cart.html';">
+  </div>
+
+  <!-- Main content area with logo and descriptions -->
+  <div id="main"> 
+    <img src="logoo.png" alt="bigtoit" class="moved-image-biglogo" width="300" height="300">
+    
+    <!-- Left and right rotated images -->
+    <img src="leftexmp.png" alt="Left Example" class="left-example">
+    <img src="rightexmp.png" alt="Right Example" class="right-example">
+
+    <p class="centered-text"><b>Menu Generator - for nutrition optimization</b></p>
+    <p class="centered-text2">
+      A tool for automatically picking the best recipes based on user preferences<br> 
+      and nutrition goals utilizing <b>Mathematical Programming</b>
+    </p>
+
+    <!-- Sign Up button -->
+    <button class="signup-button" onclick="window.location.href='register.html';">Sign Up</button>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p class="centered-text"><b>Reasons to use our service</b></p>
+    <!-- Content Boxes -->
+    <div class="content-boxes">
+      <!-- Box 1 -->
+      <div class="box">
+        <img src="img1.png" alt="Highly Customizable Icon">
+        <h3>Highly Customizable</h3>
+        <p>Choose properties like:</p>
+        <ul>
+          <li>Preferred Store</li>
+          <li>Food Preferences</li>
+          <li>Price/Taste Ratio</li>
+          <li>Calories</li>
+          <li>Nutrients</li>
+          <li>And more...</li>
+        </ul>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="box">
+        <img src="img2.png" alt="Free Icon">
+        <h3>Free</h3>
+        <p>Access to all features:</p>
+        <ul>
+          <li>Account</li>
+          <li>Custom recipes</li>
+          <li>Computation</li>
+          <li>Results</li>
+          <li>Shopping cart</li>
+          <li>And more...</li>
+        </ul>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="box">
+        <img src="img3.png" alt="Optimization Icon">
+        <h3>Optimization</h3>
+        <p>Menu Generator uses mathematical programming to find the best meals for you based on the chosen price/taste ratio, while not exceeding or falling short of your nutrition goals.</p>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Footer with copyright info -->
+  <div id="footer">&copy; MenuGen<br>Version 1.0</div>
+</body> 
+</html>
